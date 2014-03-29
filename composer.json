@@ -2,7 +2,7 @@
     "name": "knoxguru/nsbundle",
     "type": "symfony-bundle",
     "description": "Access the NS PHPToolkit API inside your Symfony application",
-    "keywords": ["ns, phptoolkit"],
+    "keywords": ["ns", "phptoolkit"],
     "homepage": "http://github.com/knoxguru",
     "license": "MIT",
     "authors": [
