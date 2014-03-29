@@ -3,6 +3,11 @@ Due to licensing I am not allowed to say the name of the library that this bundl
 The original work and it's license is in the NS folder at the root of this Bundle.
 
 #Installation 
+
+using composer add the line below to your require section:
+
+	"knoxguru/nsbundle": "dev-master"
+
 Edit the parameters for your NS account in the Resources/config/services.yml file
 
 Add the bundle to your AppKernel.php file
