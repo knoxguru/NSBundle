@@ -1,10 +1,10 @@
 parameters:
-    knoxguru.nsendpoint: "2013_2"
-    knoxguru.nshost:     "https://webservices.netsuite.com"
-    knoxguru.nsemail:    "jDoe@netsuite.com"
-    knoxguru.nspassword:  "mySecretPwd"
-    knoxguru.nsrole:      "3"
-    knoxguru.nsaccount:  "MYACCT1"
+
+
+
+
+
+
     
 services:
     knoxguru.nsservice:
