@@ -37,5 +37,9 @@ After you have initialized you can use the classes anywhere by adding it to your
 		}
 	}
 
+# Further reading
+
+You can find the toolkit documentation here: http://tellsaqib.github.io/NSPHP-Doc/index.html
+
 #License
 My work is MIT the NS folder has it's own license file attached. Everything inside the NS dir is not my work at all just distributing it with the code as allowed by the license.
