@@ -8,8 +8,6 @@ using composer add the line below to your require section:
 
 	"knoxguru/nsbundle": "dev-master"
 
-Edit the parameters for your NS account in the Resources/config/services.yml file
-
 Add the bundle to your AppKernel.php file
 
 	new KnoxGuru\Bundle\NSBundle\KnoxGuruNSBundle(),
