@@ -1,0 +1,19 @@
+{
+    "name": "knoxguru/nsbundle",
+    "type": "symfony-bundle",
+    "description": "Access the NS PHPToolkit API inside your Symfony application",
+    "keywords": ["ns, phptoolkit"],
+    "homepage": "http://github.com/knoxguru",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "KnoxGuru",
+            "homepage": "http://github.com/knoxguru"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=5.3.2",
+    }
+}
+
