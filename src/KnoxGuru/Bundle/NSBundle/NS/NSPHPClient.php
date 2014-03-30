@@ -2,6 +2,10 @@
 
 namespace KnoxGuru\Bundle\NSBundle;
 
+use KnoxGuru\Bundle\NSBundle\RecordRef as RecordRef;
+use SoapClient;
+use SoapHeader;
+use SimpleXMLElement;
 
 function arrayValuesAreEmpty ($array)
 {

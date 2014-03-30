@@ -29,14 +29,33 @@ Inside your controller simply initialize using this command
 
 After you have initialized you can use the classes anywhere by adding it to your uses:
 
-	use KnoxGuru\Bundle\NSbundle\RecordType;
+	use KnoxGuru\Bundle\NSbundle\NetSuiteService;
+	use KnoxGuru\Bundle\NSbundle\GetRequest;
+	use KnoxGuru\Bundle\NSbundle\RecordRef;
 
 	class MyController extends Controller {
 
 		public function indexAction() {
+
 			$this->container->get('knoxguru.nsservice');
-			$record = new Record;
-			// etc. etc. etc.
+
+			$service = new NetSuiteService();
+
+			$request = new GetRequest();
+			$request->baseRef = new RecordRef();
+			$request->baseRef->internalId = "21";
+			$request->baseRef->type = "customer";
+			$getResponse = $service->get($request);
+
+			if (!$getResponse->readResponse->status->isSuccess) {
+			    echo "GET ERROR";
+			} else {
+			    $customer = $getResponse->readResponse->record;
+			    echo "GET SUCCESS, customer:";
+			    echo "\nCompany name: ". $customer->companyName;
+			    echo "\nInternal Id: ". $customer->internalId;
+			    echo "\nEmail: ". $customer->email;
+			} 
 		}
 	}
 
