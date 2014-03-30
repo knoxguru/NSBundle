@@ -66,4 +66,4 @@ After you have initialized you can use the classes anywhere by adding it to your
 You can find the toolkit documentation here: http://tellsaqib.github.io/NSPHP-Doc/index.html
 
 #License
-My work is MIT the NS folder has it's own license file attached. Everything inside the NS dir is not my work at all just distributing it with the code as allowed by the license.
+My work is MIT; however, the code in the src/KnoxGuru/Bundle/NSBundle/NS folder has its own license file attached and you should review it before using this bundle. Everything inside the NS directory is not my original work. It's a modified version of the NS PHP Toolkit to work with this bundle and Symfony.
