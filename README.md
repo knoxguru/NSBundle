@@ -1,6 +1,6 @@
-Due to licensing I am not allowed to say the name of the library that this bundles for Symfony2 Applications. However, you can find the source and the author of that at this URL: http://www.netsuite.com/portal/developers/resources/suitetalk-sample-applications.shtml
+Netsuite PHP Toolkit bundle for Symfony2 Applications. The orginal souce and samples cna be found here: http://www.netsuite.com/portal/developers/resources/suitetalk-sample-applications.shtml
 
-The original work and it's license is in the NS folder at the root of this Bundle.
+The original work and it's license is in the src/KnoxGuru/bundle/NSBundle/NS folder.
 
 #Installation 
 
