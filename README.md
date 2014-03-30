@@ -12,14 +12,15 @@ Add the bundle to your AppKernel.php file
 
 	new KnoxGuru\Bundle\NSBundle\KnoxGuruNSBundle(),
 
-Next you will copy and paste these parameters to your app/config/parameters.yml and edit them appropriately:
-
-	knoxguru.nsendpoint: "2013_2"
-	knoxguru.nshost:     "https://webservices.netsuite.com"
-	knoxguru.nsemail:    "jDoe@yourdomain.com"
-	knoxguru.nspassword:  "mySecretPwd"
-	knoxguru.nsrole:      "3"
-	knoxguru.nsaccount:  "MYACCT1"
+Next you will copy and paste these parameters to your app/config/config.yml and edit them appropriately:
+	parameters:
+	    /*...*/
+	    knoxguru.nsendpoint: "2013_2"
+	    knoxguru.nshost:     "https://webservices.netsuite.com"
+	    knoxguru.nsemail:    "jDoe@yourdomain.com"
+  	    knoxguru.nspassword:  "mySecretPwd"
+	    knoxguru.nsrole:      "3"
+	    knoxguru.nsaccount:  "MYACCT1"
 
 
 #Usage
