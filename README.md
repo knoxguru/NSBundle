@@ -13,6 +13,7 @@ Add the bundle to your AppKernel.php file
 	new KnoxGuru\Bundle\NSBundle\KnoxGuruNSBundle(),
 
 Next you will copy and paste these parameters to your app/config/config.yml and edit them appropriately:
+
 	parameters:
 	    /*...*/
 	    knoxguru.nsendpoint: "2013_2"
