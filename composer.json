@@ -6,8 +6,9 @@
     "homepage": "http://github.com/knoxguru",
     "license": "MIT",
     "autoload": {
-        "psr-0": { "": "src/" }
+        "psr-0": { "KnoxGuru\\Bundle\\NSBundle": "" }
     },
+    "target-dir": "KnoxGuru/Bundle/NSBundle",
     "authors": [
         {
             "name": "KnoxGuru",
