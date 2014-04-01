@@ -1,4 +1,4 @@
-Netsuite PHP Toolkit bundle for Symfony2 Applications. The orginal souce and samples cna be found here: http://www.netsuite.com/portal/developers/resources/suitetalk-sample-applications.shtml
+Netsuite PHP Toolkit bundle for Symfony2 Applications. The orginal source and samples can be found here: http://www.netsuite.com/portal/developers/resources/suitetalk-sample-applications.shtml
 
 The original work and it's license is in the src/KnoxGuru/bundle/NSBundle/NS folder.
 
