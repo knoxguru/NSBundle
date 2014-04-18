@@ -7,6 +7,9 @@ The original work and it's license is in the src/KnoxGuru/bundle/NSBundle/NS fol
 using composer add the line below to your require section:
 
 	"knoxguru/nsbundle": "dev-master"
+then
+
+	composer.phar update
 
 Add the bundle to your AppKernel.php file
 
