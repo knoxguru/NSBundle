@@ -26,6 +26,7 @@ Next you will copy and paste these parameters to your app/config/config.yml and 
 	    knoxguru.nsrole:      "3"
 	    knoxguru.nsaccount:  "MYACCT1"
 
+I have not tested with the 2014_1 version but from what I've seen so far I don't expect too much. I'll refocus on 2014_1 when I can.
 
 #Usage
 Inside your controller simply initialize using this command
